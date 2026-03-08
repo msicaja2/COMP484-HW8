@@ -1,0 +1,114 @@
+/* Color Palette
+# - color 1: 0C134F
+# - color 2: 1D267D
+# - color 3: 5C469C
+# - color 4: D4ADFC
+palette link: https://colorhunt.co/palette/0c134f1d267d5c469cd4adfc
+*/
+
+/* Global styles 
+------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "EB Garamond";
+    margin: 0;
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+
+h1, h2, h3 {
+    font-family: "Merienda";
+}
+
+h1 {
+    font-size: 3.5em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 0;
+    margin: 0;
+}
+
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
+    color: white;
+}
+
+.column-narrow {
+    width: 30%; 
+    float: left; 
+    padding-right: 3%; 
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 70%; 
+    float: left; 
+    min-height: 225px;
+}
+
+nav {
+    background-color: #D4ADFC;
+    color: red;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+}
+
+nav a {
+    padding: 10px;
+    display: inline-block;
+    color: #333333;
+    text-decoration: none;
+    font-family: "EB Garamond";
+    font-weight: bold;
+}
+
+/* Header & Footer 
+------------------------------------*/
+header, footer {
+    background-color: #0C134F;
+    color: aqua;
+}
+
+footer {
+    text-align: center;
+}
+
+.profile-img {
+    border-radius: 50%;
+}
+
+
+/* Work Experience
+------------------------------------*/
+.workExp {
+    background-color: #1D267D;
+    color: aliceblue;
+}
+
+
+/* Education
+------------------------------------*/
+.education {
+    background: linear-gradient(rgba(102,102,153,0.5), rgba(0,0,54,0.5));
+    color: azure;
+}
